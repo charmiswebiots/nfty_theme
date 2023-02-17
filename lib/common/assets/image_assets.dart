@@ -9,4 +9,5 @@ class ImageAssets {
   final String t2 = "assets/images/t2.png";
   final String t3 = "assets/images/t3.png";
   final String splashLogo = "assets/images/splashLogo.png";
+  final String onBottom = "assets/images/onBottom.png";
 }

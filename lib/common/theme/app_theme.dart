@@ -46,6 +46,7 @@ class AppTheme {
 
   Color pinkLinear;
   Color blueLinear;
+  Color buttonGradient;
 
   /// Default constructor
   AppTheme({
@@ -86,6 +87,7 @@ class AppTheme {
 
     required this.pinkLinear,
     required this.blueLinear,
+    required this.buttonGradient
   });
 
   /// fromType factory constructor
@@ -130,6 +132,7 @@ class AppTheme {
 
           pinkLinear: const Color(0xff85296D),
           blueLinear: const Color(0xff2C5CD8),
+          buttonGradient: const Color(0xff6794FF),
         );
 
       case ThemeType.dark:
@@ -170,6 +173,7 @@ class AppTheme {
           trackActive: const Color(0xff4E3B2B),
           pinkLinear: const Color(0xff85296D),
           blueLinear: const Color(0xff2C5CD8),
+          buttonGradient: const Color(0xff6794FF),
         );
     }
   }

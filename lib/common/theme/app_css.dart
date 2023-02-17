@@ -25,6 +25,7 @@ class AppCss {
   );
 
   static TextStyle get metropolisSmallTextLight => metropolis.light.size(FontSizes.f12);
+  static TextStyle get outfitSmallTextLight => outfit.light.size(FontSizes.f12);
 
   //Text Style metropolis extraThickBold
   static TextStyle get metropolisH1 => metropolis.extraThickBold.size(FontSizes.f20);
@@ -37,6 +38,7 @@ class AppCss {
   
   //Text Style metropolis SemiBold
   static TextStyle get outfitSemiBold16 => outfit.semiBold.size(FontSizes.f16);
+  static TextStyle get outfitSemiBold18 => outfit.semiBold.size(FontSizes.f18);
   static TextStyle get outfitSemiBold14 => outfit.semiBold.size(FontSizes.f14);
   static TextStyle get outfitSemiBold10 => outfit.semiBold.size(FontSizes.f10);
   static TextStyle get outfitSemiBold12 => outfit.semiBold.size(FontSizes.f12);
@@ -45,6 +47,7 @@ class AppCss {
   static TextStyle get metropolisSmallText => metropolis.regular.size(FontSizes.f12);
 
   static TextStyle get poppinsRegular24 => poppins.regular.size(FontSizes.f24);
+  static TextStyle get outfitRegular14 => poppins.regular.size(FontSizes.f14);
 
   //Text Style metropolis extraBold
   static TextStyle get metropolisPrice => metropolis.extraBold.size(FontSizes.f16);

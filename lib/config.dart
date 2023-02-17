@@ -9,6 +9,7 @@ export 'package:nfty_theme/common/assets/index.dart';
 export 'package:nfty_theme/common/extension/widget_extension.dart';
 export 'package:nfty_theme/common/extension/spacing.dart';
 export 'package:nfty_theme/common/theme/app_css.dart';
+export 'package:nfty_theme/common/extension/text_style_extensions.dart';
 
 export 'package:flutter/material.dart';
 export 'package:nfty_theme/packages_list.dart';
